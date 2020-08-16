@@ -13,6 +13,7 @@ import Data.Map (Map)
 import qualified Data.Map as Map
 import Prelude hiding ((++), (.))
 import Util ((.), (++), getDigit, stripInfix)
+import Data.Semigroup
 
 newtype Token = Token { tokenChars :: String }
 	deriving (Eq, Show)
